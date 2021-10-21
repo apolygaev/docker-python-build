@@ -9,3 +9,6 @@ docker build --rm -t "${image}" .
 id=$(docker create "${image}")
 docker cp $id:/tmp/installdir/opt .
 docker rm $id
+
+# Package python to archive
+tar -cvf centos-7-python-3.9.tar.gz --exclude='__pycache__/*' opt
