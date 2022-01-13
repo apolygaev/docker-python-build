@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 image="localhost/python-build:3.9"
 
