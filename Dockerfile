@@ -1,6 +1,6 @@
 FROM centos:7
 
-ENV BUILD_VER=3.9.7
+ENV BUILD_VER=3.9.9
 ENV DLURL=http://python.org/ftp/python/${BUILD_VER}/Python-${BUILD_VER}.tgz
 ENV INSTALL_DIR=/opt/python-3.9
 
